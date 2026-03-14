@@ -1,17 +1,17 @@
 /* RESET */
 
-*{
+*{ /*áp dụng CSS cho tất cả phần tử trong trang */
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial, sans-serif;
+font-family:Arial, sans-serif; /*định dạng văn bản tron trang */
 }
 
 ul,ol{
 list-style:none;
 }
 
-a{
+a{ /* áp dụng cho thẻ trong trangh*/
 text-decoration:none;
 color:inherit;
 }
@@ -19,26 +19,26 @@ color:inherit;
 /* BODY */
 
 body{
-background:#f5f5f5;
-color:#333;
-line-height:1.6;
+background:#f5f5f5; /*màu nền của web*/
+color:#333; /* màu chữ*/
+line-height:1.6; /*khoảng cách giữa các vban */
 }
 
 .container{
-max-width:1200px;
-margin:auto;
+max-width:1200px; /* chiều rộng max*/
+margin:auto; /* tự động căn giữa*/
 padding:0 20px;
 }
 
 /* HEADER */
 
 header{
-background:white;
-padding:18px 0;
+background:white; /* màu nền*/
+padding:18px 0; /* khoảng cách chiều cao*/
 position:sticky;
-top:0;
+top:0; /* ghim trên cùng*/
 z-index:1000;
-border-bottom:1px solid #ddd;
+border-bottom:1px solid #ddd; /* thêm đường kẻ dưới header*/
 box-shadow:0 3px 10px rgba(0,0,0,0.05);
 }
 
@@ -49,8 +49,8 @@ align-items:center;
 }
 
 .logo{
-font-size:24px;
-font-weight:bold;
+font-size:24px; /* kích thước chữ*/
+font-weight:bold; /* chữ đậm*/
 letter-spacing:2px;
 color:#222;
 }
@@ -58,21 +58,21 @@ color:#222;
 /* MENU */
 
 .menu{
-display:flex;
-gap:35px;
+display:flex; /*menu nằm ngang */
+gap:35px; /* khioarng cách*/
 }
 
 .menu a{
 font-size:15px;
 color:#333;
-transition:.3s;
-position:relative;
+transition:.3s; /* hiệu ứng chuyển động*/
+position:relative; /* hiệu ứng line dưới chữ*/
 }
 
 .menu a:hover{
 color:#2b5cff;
 }
-
+/*đưa chuột đổi màu chữ */
 /* underline animation */
 
 .menu a::after{
