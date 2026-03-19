@@ -54,6 +54,14 @@ font-weight:bold;       /* chữ đậm*/
 letter-spacing:2px;
 color:#222;
 }
+.logo{ /*hiệu ứng logo*/
+cursor:pointer;
+transition:0.3s;
+}
+
+.logo:hover{
+color:#2b5cff;
+}
 
 /* MENU */
 
